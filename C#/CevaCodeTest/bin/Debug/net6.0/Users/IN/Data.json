@@ -1,0 +1,14 @@
+{
+  "ID": 64,
+  "UserID": 7,
+  "EmployeeID": "CLGAXO",
+  "SiteName": "MULGRAVE",
+  "BusinessUnitName": "Telstra Logistics - Melbourne",
+  "AccountName": "IBM AUSTRALIA LTD",
+  "GroupName": "Transport",
+  "CategoryName": "Activity - Productive",
+  "TypeName": "Transport - Freight Sorting",
+  "Date": "2018-02-14",
+  "Duration": "00:30",
+  "IsProcessed": false
+}
