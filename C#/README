@@ -1,1 +1,4 @@
-This folder contains the Solution of the first problem in the document.It is done in Asp .net Core and API is easily accessible using Swagger UI
+This folder contains the Solution of the first problem in the document.It is done in Asp .net Core and API is easily accessible using Swagger 
+
+I have made the necessary changes in the code such that the directory is not hardcoded in the solutions.
+Kindly change the directory path in appsettings.json before testing the solution
