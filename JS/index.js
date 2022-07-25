@@ -91,7 +91,7 @@ const arr1 = Array.from(new Set(activity.map((i) => i.EmployeeID)));
 //Identifying the activities based on the employee id's
 const arr2 = activity.map((i) => {
   if (i.EmployeeID == arr1[0]) {
-    return i.TypeName;
+    return Object.entries(i);
   }
 });
 
@@ -100,16 +100,21 @@ const farr2 = arr2.filter((d) => d);
 
 const arr3 = activity.map((i) => {
   if (i.EmployeeID == arr1[1]) {
-    return i.TypeName;
+    return Object.entries(i);
   }
 });
 
 const farr3 = arr3.filter((d) => d);
 
+//Getting Keyname of the Employee ID
+const key = Object.keys(activity[0]).find((i) => activity[0][i] === arr1[0]);
+
 //Assignning the values of EmployeeID's with their activity name in 2D array
+const keyarr = [[key, arr1[0]], [key], arr1[1]];
+
 const arr2D = [
-  [arr1[0], farr2],
-  [arr1[1], farr3],
+  [keyarr[0], farr2],
+  [keyarr[1], farr3],
 ];
 
 //output
