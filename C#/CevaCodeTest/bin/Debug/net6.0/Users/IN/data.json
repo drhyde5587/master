@@ -1,0 +1,14 @@
+{
+  "ID": 0,
+  "UserID": 0,
+  "EmployeeID": "string",
+  "SiteName": "string",
+  "BusinessUnitName": "string",
+  "AccountName": "string",
+  "GroupName": "string",
+  "CategoryName": "string",
+  "TypeName": "string",
+  "Date": "string",
+  "Duration": "string",
+  "IsProcessed": true
+}
